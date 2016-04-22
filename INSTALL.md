@@ -18,6 +18,12 @@ There are a couple of environment variables you can set to configure OSEM.
 | OSEM_GOOGLE_KEY/OSEM_GOOGLE_SECRET | *string*			| OMNIAUTH Developer Keys/Secrets for GOOGLE
 | OSEM_FACEBOOK_KEY/OSEM_FACEBOOK_SECRET | *string*		| OMNIAUTH Developer Keys/Secrets for Facebook
 | OSEM_GITHUB_KEY/OSEM_GITHUB_SECRET |*string*			| OMNIAUTH Developer Keys/Secrets for GitHub
+| OSEM_SMTP_ADDRESS		| smtp.opensuse.org		| The smtp server to use
+| OSEM_SMTP_PORT		| *int*				| The port on the smtp server
+| OSEM_SMTP_USERNAME		| *string*			| The user for the smtp server
+| OSEM_SMTP_PASSWORD		| *string*			| The password for the smtp server
+| OSEM_SMTP_AUTHENTICATION	| plain, login or cram_md5      | The auth method for the smtp server
+| OSEM_SMTP_DOMAIN		| opensuse.org			| The HELO domain for the smtp server
 
 ### Run OSEM in development
 We are using [Vagrant](https://www.vagrantup.com/) to create our development environments.
