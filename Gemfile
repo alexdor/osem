@@ -167,6 +167,9 @@ gem 'bootstrap-switch-rails', '~> 3.0.0'
 # for parsing OEmbed data
 gem 'ruby-oembed'
 
+# for setting app configuration in the environment
+gem 'dotenv-rails'
+
 # Use guard and spring for testing in development
 group :development do
   # rspec Guard rules
